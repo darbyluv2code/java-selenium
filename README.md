@@ -2,13 +2,13 @@
 
 [![Build Status](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml)
 
-Source code for the course: [Java Selenium: Master Web Test Automation](https://www.luv2code.com/java-playwright-github)
+Source code for the course: [Java Selenium: Master Web Test Automation](https://www.luv2code.com/java-selenium-github)
 
-If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.luv2code.com/java-playwright-github).
+If you have questions or need tech support, post your questions to the [classroom discussion forum](https://www.luv2code.com/java-selenium-github).
 
 Happy coding!
 
-[<img src="images/java-selenium-thumbnail.png">](https://www.luv2code.com/java-playwright-github)
+[<img src="images/java-selenium-thumbnail.png">](https://www.luv2code.com/java-selenium-github)
 
 &#8287;
 ## Spring Boot Road Map - Learning Path
@@ -41,6 +41,8 @@ For full stack projects, you have the choice of either Angular or React. Pick th
 ### Java Web Test Automation
 Learn how to automate web browser testing using Java and test automation frameworks:
 1. [Java Playwright: Master Web Test Automation](https://www.luv2code.com/java-playwright-github)
+1. [Java Selenium: Master Web Test Automation](https://www.luv2code.com/java-selenium-github)
+
 
 
 &#8287;
