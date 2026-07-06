@@ -1,6 +1,6 @@
 # Java Selenium: Master Web Test Automation
 
-[![Build Status](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/java-playwright/actions/workflows/build.yml)
+[![Build Status](https://github.com/darbyluv2code/java-selenium/actions/workflows/build.yml/badge.svg)](https://github.com/darbyluv2code/java-selenium/actions/workflows/build.yml)
 
 Source code for the course: [Java Selenium: Master Web Test Automation](https://www.luv2code.com/java-selenium-github)
 
