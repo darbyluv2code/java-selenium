@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.net.HttpURLConnection;
-import java.net.URL;
+import java.net.URI;
 import java.util.List;
 
 public class BrokenImagesTest extends BaseTest {
@@ -24,7 +24,7 @@ public class BrokenImagesTest extends BaseTest {
         for (WebElement img : images) {
             String imgUrl = img.getAttribute("src");
             try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(imgUrl).openConnection();
+                HttpURLConnection connection = (HttpURLConnection) URI.create(imgUrl).toURL().openConnection();
                 connection.setRequestMethod("GET"); // HEAD
                 connection.connect();
                 connection.setConnectTimeout(2000);

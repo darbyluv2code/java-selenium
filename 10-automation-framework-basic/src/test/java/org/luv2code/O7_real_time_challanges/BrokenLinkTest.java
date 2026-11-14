@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 import java.net.HttpURLConnection;
-import java.net.URL;
+import java.net.URI;
 import java.util.List;
 
 public class BrokenLinkTest extends BaseTest {
@@ -22,7 +22,7 @@ public class BrokenLinkTest extends BaseTest {
             highlightElement(link);
             String linkUrl = link.getAttribute("href");
             try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(linkUrl).openConnection();
+                HttpURLConnection connection = (HttpURLConnection) URI.create(linkUrl).toURL().openConnection();
                 connection.setRequestMethod("HEAD"); // GET
                 connection.connect();
                 connection.setConnectTimeout(2000);
